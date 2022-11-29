@@ -10,7 +10,7 @@ RUN apk add --no-cache curl
 
 # Timezone (TZ)
 RUN apk update && apk add --no-cache tzdata
-ENV TZ=Europe/Berlin
+ENV TZ=America/Chicago
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Add Bash shell & dependancies
@@ -31,6 +31,3 @@ RUN wget https://github.com/xteve-project/xTeVe-Downloads/raw/master/xteve_linux
 
 # Expose Port
 EXPOSE 34401
-
-# Entrypoint
-ENTRYPOINT ["./entrypoint.sh"]
