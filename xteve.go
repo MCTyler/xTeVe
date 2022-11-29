@@ -52,7 +52,7 @@ var samplePath = fmt.Sprintf("%spath%sto%sxteve%s", string(os.PathSeparator), st
 var sampleRestore = fmt.Sprintf("%spath%sto%sfile%s", string(os.PathSeparator), string(os.PathSeparator), string(os.PathSeparator), string(os.PathSeparator))
 
 var configFolder = flag.String("config", "", ": Config Folder        ["+samplePath+"] (default: "+homeDirectory+")")
-var port = flag.String("port", "", ": Server port          [34400] (default: 34400)")
+var port = flag.String("port", "", ": Server port          [34401] (default: 34401)")
 var restore = flag.String("restore", "", ": Restore from backup  ["+sampleRestore+"xteve_backup.zip]")
 
 var gitBranch = flag.String("branch", "", ": Git Branch           [master|beta] (default: master)")
