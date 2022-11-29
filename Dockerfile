@@ -39,7 +39,7 @@ RUN chmod +x /cronjob.sh
 RUN chmod +x /usr/bin/xteve
 
 # Expose Port
-EXPOSE 34400
+EXPOSE 34401
 
 # Entrypoint
 ENTRYPOINT ["./entrypoint.sh"]
