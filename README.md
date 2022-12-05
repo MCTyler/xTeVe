@@ -4,6 +4,7 @@
 <br>
 
 # xTeVe (Port 34401)
+https://hub.docker.com/repository/docker/eodcrafter/xteve
 ## M3U Proxy for Plex DVR and Emby Live TV.  
 
 Documentation for setup and configuration is [here](https://github.com/xteve-project/xTeVe-Documentation/blob/master/en/configuration.md).
@@ -48,7 +49,7 @@ Documentation for setup and configuration is [here](https://github.com/xteve-pro
 
 ---
 
-## Downloads v2 | 64 Bit only
+## Downloads v2 | 64 Bit only (These Downloads will use Port 34400)
 #### 64 Bit Intel / AMD
 
 * [Windows](https://github.com/xteve-project/xTeVe-Downloads/blob/master/xteve_windows_amd64.zip?raw=true)
