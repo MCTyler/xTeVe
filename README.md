@@ -3,7 +3,7 @@
 </div>
 <br>
 
-# xTeVe
+# xTeVe (Port 34401)
 ## M3U Proxy for Plex DVR and Emby Live TV.  
 
 Documentation for setup and configuration is [here](https://github.com/xteve-project/xTeVe-Documentation/blob/master/en/configuration.md).
