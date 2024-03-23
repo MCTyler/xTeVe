@@ -43,3 +43,9 @@ EXPOSE 34401
 
 # Entrypoint
 ENTRYPOINT ["./entrypoint.sh"]
+# The container has no recovery logic. Use a healthcheck to catch disconnects.
+        healthcheck:
+            test: ping -c 1 www.google.com || exit 1
+            interval: 30s
+            timeout: 10s
+            retries: 3
